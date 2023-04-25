@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Bitter";
+}
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+
+}
+.main-home{
+    width: 100%;
+    height: 800px;
+    background: #ffc1d5;
+ 
+}
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #ffc1d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-login{
+    position: absolute;
+    left: 0%;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-login>h1{
+    color: #f74780;
+    font-size: 3vw;
+}
+.left-login-image{
+    width: 35vw;
+}
+
+.card-login{
+    position: absolute;
+    left: 50%;
+    height: 500px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #fc6998;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+
+}
+.card-login>h1{
+    color: #f70071;
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.textfield>input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding:15px;
+    background: #db91a0;
+    color: #ffe4ec;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+.textfield>label{
+    width: 100%;
+    color: #ffc1d5;
+    margin-bottom: 10px;
+}
+.textfield>input::placeholder{
+    color: #ffc1d5;
+}
+.btr-login{
+    width: 100%;
+    padding: 16px 0px;
+
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800; 
+    letter-spacing: 3px;
+    color: #f70071;
+    background: #ffc1d5;
+    box-shadow: 0px, 10px, 14px, -12px, #fc6998;
+}
+#logo{
+    position: absolute;
+    top: -5%;
+    width: 150px;
+    height: 150px;
+    
+}
+.menu a{ 
+    color: #f74780;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.menu{
+    position:absolute;
+    right: 10%;
+    top: 50px;
+}
+#historia{
+    border-radius: 15px;/*Arredonda borda*/
+    position: relative;/*permito eu movimenta como um objeto q so q ao contrario do absolute esse nao pode dois corpos ocupa mesmo espaço*/
+    padding: 40px;/*distancio as bordas do div de seus eleentos internos*/
+    top:40px ;
+    left:80px ;/*So posso utiliza esse comando se eu usa"position:relative ou o absolute", pego uma posição da tel left right top e digo o qt os elemntos tem q se afasta desses lados*/
+    background-color: #0f0f0f1a;/*cor de fundo*/
+    width: 50%;/*tamanho da largura do meu div*/
+    text-align: justify;/*ac=plico justificar no texto*/
+    color: #f74780;/*cor da fonte do texto*/
+    text-decoration: none;/*essa eu esqueci amor kk*/
+    font-weight: bold;/*negrito no texto*/
+    margin-right: 15px;/*tamanho da margem do texto*/
+}
+.left-teddy-image{
+    position: absolute;
+    top: 0%;
+    left: 125%;
+    width: 35vw;
+}
+.main-descrição{
+    width: 100vw;
+    height: 100vh;
+    background: #ffc1d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-descrição-image{
+    position: absolute;
+    top: 0%;
+    left: 125%;
+    width: 35vw;
+}
+.left-descrição{
+    position: absolute;
+    left: 0%;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.textfield{
+    font-size: 18px;
+    width: 30%;
+    padding: 0px 35px;
+    background: #fc6998;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+#quem-somos{
+    position: absolute;
+    top:20%;
+    left: 20%;
+    font-size: 30px;
+}
+#text1{
+    width:24% ;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+#text2{
+    width:24% ;
+    position: absolute;
+    top: 62%;
+    left: 5%;
+}
+#text3{
+    width: 22%;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.contact{
+    position: absolute;
+    left: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    background-color: black;
+    width: 50%;
+    height: 400px;
+}
+.contact-right{
+    position: absolute;
+    left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    background-color: black;
+    width: 50%;
+    height: 400px;
+}
+.zap{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.zap a{
+    background-color: black;
+    color: antiquewhite;
+    text-decoration: none;
+}
+.insta{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.insta a{
+    background-color: black;
+    color:antiquewhite;
+    text-decoration: none;
+}
+.fone{
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+.social{
+    position: relative;
+    top: 20%;
+    left:10%;
+}
+.size-fone{
+    font-size: 25px;
+}
+.title-after{
+    font-size: 30px;
+}
+.descrição{
+    display: inline-block;
+    margin-top: 5%;
+}
+.descrição button{
+    font-size: 135%;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    width: 100%;
+    height: 65px;
+    color: aliceblue;
+    background-color: rgb(231, 4, 231);
+}
+    .descrição button:hover{
+     background-color: #a832733a;
+}
+.carrinho-botao{
+position: absolute;
+left: 10%;
+margin-top: -1%;
+width: 40px;
+height: 40px;
+}
